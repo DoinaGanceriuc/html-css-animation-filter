@@ -141,6 +141,19 @@
     left: 69%;
   }
 }
+.ex-13-button:hover .ex-13-top-white {
+  animation: last_btn_top 3s linear;
+}
+@keyframes last_btn_top {
+  0% {
+    top: -10px;
+    left: 10%;
+  }
+  50% {
+    top: -10px;
+    left: 69%;
+  }
+}
 .ex-12-bottom-white,
 .ex-13-bottom-white {
   position: absolute;
@@ -154,6 +167,19 @@
   animation: mov_bottom 3s linear;
 }
 @keyframes mov_bottom {
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+  50% {
+    bottom: -10px;
+    right: 69%;
+  }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: last_btn_bottom 3s linear;
+}
+@keyframes last_btn_bottom {
   0% {
     bottom: -10px;
     right: 20%;
